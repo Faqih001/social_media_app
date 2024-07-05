@@ -4,6 +4,7 @@ import { SafeAreaView } from 'react-navigation';
 
 import { Button } from './Button';
 
+// Header component with onLeftPress, leftText, onRightPress, and rightText props
 const styles = StyleSheet.create({
   container: {
     backgroundColor: '#fff',
