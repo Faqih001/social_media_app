@@ -9,6 +9,7 @@ import {
 } from 'react-native';
 import formatDistanceToNow from 'date-fns/formatDistanceToNow';
 
+// Status component with user, status, isLiked, onRowPress, onHeartPress, publishedAt, and indent props
 const Screen = Dimensions.get('window');
 
 const AVATAR_SIZE = Screen.width * 0.15;
