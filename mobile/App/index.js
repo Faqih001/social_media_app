@@ -27,6 +27,7 @@ const AppNavigator = createStackNavigator({
   },
 });
 
+// ModalNavigator with App and NewStatus screens 
 const ModalNavigator = createStackNavigator(
   {
     App: AppNavigator,
