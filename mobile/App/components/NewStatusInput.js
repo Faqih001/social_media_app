@@ -1,6 +1,7 @@
 import React from 'react';
 import { View, TextInput, StyleSheet } from 'react-native';
 
+// NewStatusInput component with multiline and numberOfLines props to display a multiline text input field 
 const styles = StyleSheet.create({
   container: {
     flexDirection: 'row',
