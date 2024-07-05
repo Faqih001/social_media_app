@@ -44,6 +44,7 @@ const ModalNavigator = createStackNavigator(
   },
 );
 
+// App container with ModalNavigator 
 const App = createAppContainer(ModalNavigator);
 
 export default () => <App />;
