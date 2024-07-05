@@ -3,6 +3,7 @@ import { FlatList, View } from 'react-native';
 
 import { Status, Separator } from '../components/Status';
 
+// Feed component with navigation prop 
 const Feed = ({ navigation }) => {
   return (
     <FlatList
