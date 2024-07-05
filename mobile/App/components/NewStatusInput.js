@@ -16,6 +16,7 @@ const styles = StyleSheet.create({
   },
 });
 
+// NewStatusInput component with multiline and numberOfLines props 
 export const NewStatusInput = ({ ...props }) => (
   <View style={styles.container}>
     <TextInput style={styles.input} multiline numberOfLines={6} {...props} />
