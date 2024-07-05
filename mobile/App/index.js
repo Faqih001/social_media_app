@@ -8,6 +8,7 @@ import NewStatus from './screens/NewStatus';
 
 import { Button } from './components/Button';
 
+// AppNavigator with Feed and Thread screens 
 const AppNavigator = createStackNavigator({
   Feed: {
     screen: Feed,
