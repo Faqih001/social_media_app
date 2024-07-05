@@ -4,7 +4,10 @@ import { FlatList, View } from 'react-native';
 import { Status, Separator } from '../components/Status';
 import { Button } from '../components/Button';
 
+// Thread component with navigation prop 
 const Thread = ({ navigation }) => {
+
+  // Get original status from navigation prop
   const originalStatus = navigation.getParam('status', {});
 
   return (
