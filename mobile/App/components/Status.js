@@ -118,6 +118,7 @@ export const Status = ({
   </TouchableOpacity>
 );
 
+// Separator component to display a horizontal line to separate content 
 export const Separator = () => (
   <View style={{ height: 1, flex: 1, backgroundColor: '#e6ecf0' }} />
 );
