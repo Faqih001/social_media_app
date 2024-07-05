@@ -17,6 +17,7 @@ const styles = StyleSheet.create({
   },
 });
 
+// Button component with onPress and text props 
 export const Button = ({ onPress, text }) => (
   <TouchableOpacity style={styles.button} onPress={onPress}>
     <Text style={styles.buttonText}>{text}</Text>
