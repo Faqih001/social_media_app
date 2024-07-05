@@ -73,6 +73,7 @@ const styles = StyleSheet.create({
   },
 });
 
+// Status component with user, status, isLiked, onRowPress, onHeartPress, publishedAt, and indent props 
 export const Status = ({
   user,
   status,
