@@ -22,6 +22,7 @@ const styles = StyleSheet.create({
   },
 });
 
+// Header component with onLeftPress, leftText, onRightPress, and rightText props
 export const Header = ({ onLeftPress, leftText, onRightPress, rightText }) => (
   <SafeAreaView style={styles.container}>
     <TouchableOpacity onPress={onLeftPress}>
