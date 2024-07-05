@@ -1,6 +1,7 @@
 import React from 'react';
 import { Text, TouchableOpacity, StyleSheet } from 'react-native';
 
+// Button component with custom styles and text prop to display button text and onPress prop to handle button click event 
 const styles = StyleSheet.create({
   button: {
     backgroundColor: '#1ca1f2',
