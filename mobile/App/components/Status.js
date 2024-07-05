@@ -15,6 +15,7 @@ const Screen = Dimensions.get('window');
 // Status component with user, status, isLiked, onRowPress, onHeartPress, publishedAt, and indent props
 const AVATAR_SIZE = Screen.width * 0.15;
 
+// Status component with user, status, isLiked, onRowPress, onHeartPress, publishedAt, and indent props 
 const styles = StyleSheet.create({
   row: {
     flexDirection: 'row',
