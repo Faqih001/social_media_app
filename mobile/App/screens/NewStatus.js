@@ -4,6 +4,7 @@ import { ScrollView } from 'react-native';
 import { NewStatusInput } from '../components/NewStatusInput';
 import { Header } from '../components/Header';
 
+// NewStatus component with navigation prop
 export default ({ navigation }) => {
   return (
     <React.Fragment>
